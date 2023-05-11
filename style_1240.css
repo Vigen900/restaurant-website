@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1240px) {
+    .header nav ul, .header nav .user-icon {
+        display: none;
+    }
+    .img-header {
+        display: none;
+    }
+    .back-green-img {
+        width: auto;
+    }
+    .top-restoran-productes {
+        width: auto;
+    }
+    .back-green-img {
+        width: 150%;
+    }
+    .mobile-data {
+        height: 50%;
+        width: 40%;
+        margin-left: 30px;
+    }
+    .back-green-img {
+        width: 100%;
+        background-repeat: no-repeat;
+        padding-left: 0px;
+        background-position-x: -175px;
+        /* background-image: url(./images/green-vector4.png); */
+    }
+    .footer img {
+        width: 50%;
+    }
+    .top-restoran-right {
+        margin-left: 73px;
+    }
+    .top-restoran-text {
+        margin-left: 32px;
+    }
+    .top-restoran-img {
+        width: 434px;
+  }
+  .top-restoran-productes {
+    background-position-x: -360px;
+    background-position-y: 30px;
+  }
+  .top-restoran {
+    height: 1195px;
+  }
+  .booking {
+    height: 1020px;
+    display: flex;
+    align-items: center;
+    background-image: url(/images/booking.png);
+    background-repeat: no-repeat;
+    background-position: 1721px 345px;
+  }
+  .booking img {
+    width: 717px;
+  }
+}
+

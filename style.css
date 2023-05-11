@@ -1,0 +1,469 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    min-height: 1284px;
+    background-color: #fff5ec;
+    background-image: url(background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.top-restoran {
+    height: 1328px;   
+    background-color: #fff5ec; 
+}
+.booking {
+    min-height: 1090px;    
+    background-color: #FFEDDE;
+}
+.our-services {
+    min-height: 1270px;    
+    background-color: #FFF5EC;
+}
+.our-foods {
+    min-height: 1818px;
+    background-color: #FFF5EC;
+}
+.mobile {
+    display: flex;
+    min-height: 1090px;
+    background-color: #FFEDDE;
+    padding-top: 65px;
+    align-items: center;
+}
+.footer {
+    min-height: 1035px;
+    background-color: #FFF5EC;
+}
+.header nav, .header nav ul {
+    display: flex;
+    align-items: center;
+}
+.header ul li  {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 16px;
+    color: #2E266F;
+    line-height: 24px;
+}
+h1 {
+    font-size: 72px;   
+    color: #35CD8C; 
+    line-height: 108px;
+} 
+.header nav {
+    padding-left: 133px;
+    padding-right: 133px;
+    justify-content: space-between;
+}
+.user-icon {
+    display: flex;
+    align-items: center;    
+}
+.user-icon .userimg {
+    margin-right: 9px;   
+
+}
+.user-icon .vectorimg {
+    margin-left: 7px;
+}
+.user-icon span {
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.header .text-food {
+    color: #2e266f;
+    opacity: 0.05;
+    font-weight: 900;
+    font-size: 200px;    
+}
+.text-discover {
+    font-weight : 900;
+    font-size: 72px;
+    line-height: 90px; 
+    color: #2E266F;    
+}
+.img-header {
+    width: 878px;
+    height: 1120px;
+    background-image: url('./images/header-img.png');
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+}
+.header-main {
+    padding-left: 133px;
+    padding-right: 133px;
+    display: flex;
+}
+.header-main .header-left, .header-main .header-right {
+    width: 50%;
+}
+.header-left {
+    padding-top: 130px;
+}
+/* .header-col {
+    position: absolute;
+    width: 514px;
+    height: 1284px;
+    background-color: #35CD8C;
+    right: 0;
+    top: 0;    
+} */
+.top-restoran-text {
+    border-left: 25px solid #35CD8C;
+    height: 140px;   
+    font-size: 48px;
+    font-weight: 500; 
+    line-height: 62px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    margin-left: 135px;
+    color: #2E266F;
+    width: 50%;
+}
+.top-restoran-main {
+    display: flex;
+    
+}
+.top-restoran-right {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 30%;
+}
+.top-restoran-productes {
+    background-image: url(/images/top-restoran.png);
+    width: 1350px;
+    height: 737px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    margin-top: 70px;
+    padding-top: 70px;
+    display: flex;
+    gap: 40px;
+}
+.top-restoran-img {
+    width: 639px;
+    height: 636px;
+    background-position: center;
+    background-size: 110%;
+    position: relative;
+    background-image: url('https://s3-alpha-sig.figma.com/img/fb0d/a674/ee224fca0fd31394f7e036dec5eeb4ca?Expires=1682899200&Signature=pP85jfrYsSJM~6fEpYxRCz4ElNuLwRUhh7BO-zHW4hjtkVz7thzk2qENQ6hamr7-QkNDDlIx8tMnEKTi5QyjBCxwbD0Gtkg8YrGYYDL0n9uMIVBv8pfgdB4OPTEQX-pkDzv~up3K41X50bhOcUflbZkLn5A6BNPV2NRR1OIcshLWR3rKLAev3FDBxIeR1Vt2VvFR-74af8Hj1Kl0l6uQKpX-XOu1pH8zG5XRHhx4rdEkjjPlYGYjE4wgb47nWgavgpU2hmyGjlSJnqgURs-SABSqzPF2t0uWWBrd4Ji3kUDWR3L8Odzn8PAGW83YtYgx~J7d4S9LxaxAvjOMUtI~rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.top-restoran-imgText {
+    background-color: #35cd8b81;
+    height: 253px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    bottom: 0;    
+}
+.top-restoran-img-right {      
+    background-image: url('https://s3-alpha-sig.figma.com/img/b704/55ae/6c4d7c1bef2c9e97e8df92d4be8a1d1a?Expires=1683504000&Signature=fuAkqudDUmLq-5YUTBPrBMKVJgwDzhGUhOfmW1NfB651bZlrzMjH97O6hFxA2dP~uQY1SvxYr4S4-dvqX3skiS6IPdpPmYBxcAcYpkcfIpRtVbiI0PTrnBQgcLJBnteBciFP0jjAg3AZ4h93eNYh1RsomnWCvy9gmSiwMYzbpirSEXtFt7BwlFapNvsQyn6EfK1YwEvY3sRa6ckVd3Oty0WgyXAGhLeEUanSuXJSga1f0r9LGgzvAl6Rw27eFmpXo8jxKZNrj1mi3nkSpt~CJSv1GdySEHJ4LPENW2dqogK1vF8f3-mBgLPj8V-JJ5DspPWBujFHMw22ksqPI~kIkg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+}
+.booking-img {
+    background-image: url('https://s3-alpha-sig.figma.com/img/8096/57fe/ae617c591be597dfa703ef346d25f3fe?Expires=1683504000&Signature=Vm5cUgJd7INQKtJHfapD55Jl2XBNqR8bMqHNM701o~bjS1wjPEzx8djAjrC0EeLtQ6BMsrxg9-VkARR3QqLh96JI0btEueohXLU0ka00YMmtS4UdxvSo2hLNwMy6DnoYGCaJbnmHrfYNjIK94N1kCzXoaYQIFZL1kUttKkmO54IiXxo0dCY6tIQsQVMNoLThst51BhkSowI3mgVBMxck9soz4EsR2tV15IVFQn3ozZd9vzp99jg4ra8sTl6ZdTBt8NG59n7m3yeIX3yoIThA2v~T9bGom3S965jyFFjBqOCmEcXe3vDHt90YJOdeImKnOz5-61AbdHPwbOTnOt~SiA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    width: 1010px;
+    height: 1018px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-left: -160px;
+    background-position: -250px -260px;
+    background-size: 99%
+}
+.booking-window {
+    background-color: white;
+    height: 560px;
+    width: 1230px;
+    margin-left: -725px;
+}
+.product-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 67%;
+}
+.product-description {
+    padding: 40px 192px 0px 60px;
+    
+}
+.icon {
+    font-size: 14px;    
+    line-height: 24px;
+    display: flex;
+    align-items: self-end;
+}
+.icon img {
+    margin-right: 10px;
+}
+.top-restoran.button {
+    width: 208px;
+    height: 58px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    text-transform: capitalize;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #35CD8C;
+}
+.booking {
+    display: flex;
+    align-items: center;
+    background-image: url('/images/booking.png');
+    background-repeat: no-repeat;
+    background-position: 1721px 345px;
+}
+.green-line {
+    width: 230px;
+    height: 15px;
+    background-color: #35CD8C;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.booking-content {
+    padding-left: 413px;
+    padding-right: 273px;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.green-line-text {
+    color: #2E266F;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 24px;
+}
+.booking-content input {
+    width: 544px;
+    height: 90px;
+    padding-left: 40px;
+}
+.green-line-2 {
+    background-color: #35CD8C;
+    width: 25px;
+    height: 140px;
+    margin-left: 109px;    
+}
+.our-services-child {
+    display: flex;
+}
+.our-services .first-text {
+    width: 307px;
+    height: 105px;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #2E266F;
+}
+.second-text {
+    width: 609px;
+    height: 141px;
+    margin-left: 201px;
+}
+.vector-img {    
+    display: flex;     
+    height: 1080px;
+    left: 26px;  
+    background-size: 113%;  
+    background-image: url('/images/Vector\ \(2\).png');
+}
+.group-left img {
+    width: 390px;
+    height: 380px;    
+    margin-left: 108px;
+}
+.our-services .table-1 {
+    float: left;
+}
+.our-services .table-2 {
+    float: right;
+}
+.booking-content button {
+    width: 128px;
+    height: 62px;
+    margin-left: 388px;
+    font-size: 30px;
+    /* margin-top: -45%; */
+    position: absolute;
+    right: 249px;
+    bottom: 15px;
+}
+.group-left {
+    width: 962px;
+    height: 962px;
+    
+}
+.group-right {
+    width: 962px;
+    height: 962px;
+    
+}
+.group-left .booking-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.booking-text .booking-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.booking-text div {
+    float: right;
+    padding-top: 119px;
+}
+.booking-text .text-content {
+    float: left;
+    padding-top: 163px;
+}
+.booking-text {
+    height: 50%;
+}
+.group-right {
+    text-align: center;
+}
+.our-foods {
+
+}
+.our-foods .foods-heading {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    margin-left: 680px;
+    color: #2E266F;
+    margin-top: 0px;
+}
+.our-foods .foods-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #707070;
+    text-align: center;
+    width: 609px;
+    margin-left: 610px;
+}
+.our-foods-img {
+    padding-left: 105px;
+    padding-top: 60px;
+}
+
+.mobile-heading {    
+    border-left: 15px solid #35CD8C;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 48px;   
+    margin-top: 0; 
+
+}
+.mobile-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #707070;
+    width: 449px;    
+    padding-left: 60px;
+    
+}
+
+.back-phone-img img {
+    background-repeat: no-repeat;
+
+}
+.apple-store {
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.apple-store img {
+    margin-right: 10px;
+}
+.mobile-data {
+    height: 50%;
+    width: 40%;
+    margin-left: 130px;
+
+}
+
+.back-img {
+    width: 40%;
+    height: 100%;
+    
+}
+.back-green-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    background-position-x: -175px;
+    background-image: url('./images/green-vector4.png');
+}
+.footer {
+    display: flex;
+    align-items: center;
+}
+.footer .green-icon {
+    /* width: 750px;
+    height: 820px; */
+    padding-left: 0px;
+    margin-top: 72px;
+    background-image: url('/images/Group.png');
+    background-repeat: no-repeat;
+}
+.footer-center .parent-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #2E266F;
+    margin-left: 51px;
+    width: 534px;
+    height: 90px;
+    text-align: center;
+}
+.footer .small-text {
+    width: 533px;
+    height: 44px;
+    padding-left: 52px;
+    color: #707070;    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.footer button {
+    width: 56px;
+    height: 56px;    
+    background-color: #35CD8C;
+    margin-left: -80px;
+    margin-top: 22px;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+}
+.footer-center .icon-footer {
+    width: 24px;
+    height: 17px;
+}
+.footer input {
+    width: 544px;
+    height: 90px;
+    padding-left: 60px;
+}
+.green-button {
+    padding-left: -20px;
+}
