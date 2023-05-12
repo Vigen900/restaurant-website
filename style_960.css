@@ -2,4 +2,52 @@
     body {
       /* background-color: rgb(3, 113, 150); */
     }
+    .our-foods .foods-desc {
+      margin-left: 500px;
+      width: auto;
+    }
+    .footer-center .parent-text {
+      width: auto;
+    }
+    .footer-center input {
+      width: 50%;
+    }
+    .footer .small-text {
+      width: auto;
+    }
+    .our-services-child {
+      flex-wrap: wrap;
+    }
+    .second-text {
+      width: auto;
+      margin-left: 0;
+      padding-left: 170px;
+    }
+    .group-right {
+      width: auto;
+    }
+    .text-content {
+      padding-left: 75px;
+    }
+    .vector-img {
+      display: block;
+      height: auto;
+    }
+    .our-foods .foods-heading {
+      text-align: center;
+      margin-left: auto;
+    }
+    .our-foods .foods-desc {
+      margin-left: auto;
+      text-align: center;
+    }
+    .our-foods-img {
+      text-align: center;
+    }
+    .mobile {
+      flex-direction: column;
+    }
+    .back-img {
+      width: auto;
+    }
   }
