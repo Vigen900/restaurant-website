@@ -50,4 +50,8 @@
     .back-img {
       width: auto;
     }
+    .our-services .table-2 {
+      float: none;
+      margin-left: 30px;
+    }
   }
