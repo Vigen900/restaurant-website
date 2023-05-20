@@ -43,7 +43,7 @@
     background-position-y: 30px;
   }
   .top-restoran {
-    height: 1195px;
+    min-height: 1195px;
   }
   .booking {
     height: 1020px;

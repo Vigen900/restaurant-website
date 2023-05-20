@@ -10,7 +10,7 @@ body {
     background-position: right;
 }
 .top-restoran {
-    height: 1328px;   
+    height: auto;   
     background-color: #fff5ec; 
 }
 .booking {

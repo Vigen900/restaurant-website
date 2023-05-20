@@ -62,5 +62,24 @@
       width: 331px;
       margin: 0 auto;
       position: relative;
-    }    
+    }   
+    .top-restoran-productes {
+      flex-direction: column;
+    } 
+    .top-restoran-right {
+      margin-left: 20px;
+      padding-right: 10px;
+      width: auto;
+    }
+
+    .top-restoran-text {
+      height: auto;
+      margin-left: 20px;
+      padding-right: 10px;
+      width: auto;
+    }
+
+    .top-restoran-main {
+      flex-direction: column;
+    }
   }
