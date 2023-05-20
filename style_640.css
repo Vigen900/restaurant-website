@@ -1,5 +1,61 @@
 @media only screen and (max-width: 640px) {
     body {
-            
+      
     }
+    .product-description {
+      padding: 0px;
+    }
+    .second-text {
+      width: auto;
+      margin-left: 0;
+      padding-left: 130px;
+    }
+    .group-left img {
+      width: 201px;
+      height: 202px;
+      margin-left: 20px;
+    }
+    .booking-text .booking-desc {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+    }
+    .group-right img {
+      width: 80%;
+    }
+    .booking-text div {
+      padding-top: 49px;
+      float: none;      
+    }
+    .booking-text .text-content {
+      padding-top: 0%;
+    }
+    .mobile-desc {
+      padding-left: 0;
+      font-size: 13px;
+    }
+    .footer {
+      display: block;
+    }
+    .img-header {
+      width: 600px;
+    }
+    .icon {
+      font-size: 11px;
+    }
+    .group-left {
+      width: auto;
+    }
+    .mobile-data {
+      width: auto;
+    }
+    .booking-content input {
+      width: 288px;
+      height: 90px;
+      padding-left: 45px;
+    }
+    .booking-content button {
+      right: 280px;
+      width: 85px;
+    }    
   }
