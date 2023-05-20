@@ -82,4 +82,10 @@
     .top-restoran-main {
       flex-direction: column;
     }
+    .top-restoran-productes {
+      align-items: center;
+    }
+    .top-restoran.button {
+      min-height: auto;
+    }
   }
