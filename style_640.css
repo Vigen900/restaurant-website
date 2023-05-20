@@ -55,7 +55,12 @@
       padding-left: 45px;
     }
     .booking-content button {
-      right: 280px;
+      right: 14px;
       width: 85px;
+    }
+    .booking-content .input-group {
+      width: 331px;
+      margin: 0 auto;
+      position: relative;
     }    
   }
