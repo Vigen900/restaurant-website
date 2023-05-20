@@ -183,8 +183,9 @@ h1 {
 .booking-window {
     background-color: white;
     height: 560px;
-    width: 1230px;
-    margin-left: -725px;
+    width: 100%;
+    max-width: 1230px;
+    /* margin-left: -725px; */
 }
 .product-title {
     font-weight: bold;
@@ -222,6 +223,7 @@ h1 {
 .booking {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: url('/images/booking.png');
     background-repeat: no-repeat;
     background-position: 1721px 345px;
@@ -234,17 +236,21 @@ h1 {
     margin-bottom: 30px;
 }
 .booking-content {
-    padding-left: 413px;
-    padding-right: 273px;
     padding-top: 100px;
     text-align: center;
     position: relative;
+    width: 100%;
 }
 .green-line-text {
     color: #2E266F;
     font-weight: 500;
     font-size: 36px;
     line-height: 24px;
+}
+.booking-content .input-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .booking-content input {
     width: 544px;
@@ -298,9 +304,7 @@ h1 {
     height: 62px;
     margin-left: 388px;
     font-size: 30px;
-    /* margin-top: -45%; */
     position: absolute;
-    right: 249px;
     bottom: 15px;
 }
 .group-left {
